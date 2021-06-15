@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  padding: 0;
+  background-image: url(https://clip-board-landing-page-master.vercel.app/images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+p {
+  color: rgb(93, 93, 93);
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.first {
+  padding: 4em 0;
+}
+
+.buttons1 {
+  margin: 2em 0;
+}
+
+button {
+  height: 3em;
+  width: 15em;
+  border-radius: 20px;
+  border: none;
+}
+
+#left {
+  background-color: rgb(38, 186, 164);
+}
+
+#right {
+  margin-left: 10px;
+  background-color: rgb(97, 115, 255);
+}
+
+.flex {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.scn {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.scn-info {
+  padding-left: 40px;
+}
+
+.middle {
+  text-align: center;
+  padding: 5em 0;
+}
+
+.two .lower {
+  text-align: center;
+  padding: 3em 0;
+}
+
+.three {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mini {
+  text-align: center;
+}
+
+.org {
+  margin-top: 20px;
+  padding: 3em 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  object-fit: contain;
+}
+
+.org img {
+  width: 100px;
+  height: 35px;
+}
+
+.clipboard {
+  text-align: center;
+}
+
+.buttons2 {
+  padding: 2em 0;
+}
+
+footer {
+  background-color: rgb(238, 238, 238);
+  height: 30vh;
+  width: 100%;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(238, 238, 238);
+}
+
+li {
+  padding: 1em 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: rgb(59, 59, 59);
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  padding: 0.5em;
+  justify-content: space-around;
+}
+
+.bottom img {
+  object-fit: contain;
+}
+
+.attribution {
+  text-align: center;
+  font-size: 0.8rem;
+  background-color: rgb(238, 238, 238);
+  color: rgb(97, 115, 255);
+}
+
+.attribution a {
+  color: rgb(97, 115, 255);
+  text-decoration: underline;
+}
